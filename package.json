@@ -1,0 +1,22 @@
+{
+    "name": "valor-color-theme",
+    "displayName": "Valor Color Theme",
+    "description": "Custom color theme based on the GitHub Dark Default theme",
+    "version": "0.0.1",
+    "publisher" : "Valor760",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Valor Dark Default",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Valor Dark Default-color-theme.json"
+            }
+        ]
+    }
+}
